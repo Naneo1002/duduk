@@ -52,6 +52,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.55rem;
   padding: 1rem 1.2rem;
   border-radius: 12px;
   background: rgba(15, 118, 110, 0.18);
@@ -61,6 +62,12 @@ h1 {
   font-weight: 700;
   word-break: break-word;
   transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
+}
+
+.result-slot {
+  display: inline-block;
+  min-width: 1ch;
+  transition: transform 0.18s ease, opacity 0.18s ease, filter 0.18s ease;
 }
 
 .result.is-shuffling {
